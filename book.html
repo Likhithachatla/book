@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- The head section contains metadata about the webpage -->
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the webpage is responsive to different screen sizes -->
+    <title>My Favorite Book</title> <!-- Sets the title of the webpage, which appears on the browser tab -->
+
+    <!-- Styling for the webpage using internal CSS -->
+    <style>
+        body {
+            /* Sets the font style, removes default margin and padding, and sets a light background color */
+            font-family: Arial, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background-color: #f4f4f4;
+        }
+        header {
+            /* Styles for the header: sets background color, height, text color, padding, and center-aligns text */
+            background-color: #4CAF50;
+            height: max-content;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+        section {
+            /* Styles for the section containing the book details: sets margin, padding, and background color */
+            margin: 0px;
+            padding: 20px;
+            background-color: white;
+        }
+        h1 {
+            /* Sets font size for the main heading */
+            font-size: 30px;
+        }
+        img {
+            /* Ensures the book cover image is responsive, with fixed height and width, and centers it */
+            max-width: 100%;
+            height: 220px;
+            width: 170px;
+            display: block;
+            margin: 0 auto 20px auto; /* Centers the image and adds space below it */
+        }
+        footer {
+            /* Styles for the footer: sets background color, text color, height, and positions it at the bottom */
+            background-color: #333;
+            color: white;
+            height: 90px;
+            text-align: center;
+            padding: 0px;
+            position: absolute;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- The header section of the webpage, containing the book title -->
+    <header>
+        <h1>The Name of the Wind</h1> <!-- Display the book title using the most significant heading -->
+    </header>
+
+    <!-- The main section containing the book's image, summary, and purchase link -->
+    <section>
+        <!-- Display the book cover image with a fixed width and height -->
+        <img src="https://m.media-amazon.com/images/I/91UzPegYyjL._SY522_.jpg" alt="The Name of the Wind Book Cover" width="300px" height="100px">
+        
+        <!-- Subheading for the summary section -->
+        <h2>Summary</h2>
+
+        <!-- Paragraph describing the book's content -->
+        <p>
+            "The Name of the Wind" by Patrick Rothfuss is the story of Kvothe, a magically gifted young man who grows up to become a legendary figure. 
+            It begins with Kvothe, now living under an assumed name, telling his life story to a chronicler. 
+            The book takes readers through Kvothe’s youth, his time at a university of magic, and the myriad of challenges and mysteries he faces along the way. 
+            It is a compelling blend of adventure, magic, and personal reflection that keeps readers engrossed from beginning to end.
+        </p>
+
+        <!-- Paragraph with a link to purchase the book, opening in a new tab -->
+        <p>
+            If you are interested in reading more, you can purchase the book 
+            <a href="https://www.amazon.com/Name-Wind-Patrick-Rothfuss/dp/0756404746" target="_blank">here</a>.
+        </p>
+    </section>
+
+    <!-- Footer containing the creator's name and student ID -->
+    <footer>
+        <p>Created by [Your Name], Student ID: 123456</p> <!-- Replace with your actual name and student ID -->
+    </footer>
+</body>
+</html>
